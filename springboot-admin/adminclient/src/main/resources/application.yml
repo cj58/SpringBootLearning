@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: adminclient
+  boot:
+    admin:
+      client:
+        url: http://localhost:9202
+        username: admin
+        password: admin
+server:
+  port: 8869
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

@@ -1,4 +1,4 @@
-package com.cj.springboot;
+package com.cj.springboot.adminserver;
 
 import de.codecentric.boot.admin.server.domain.entities.InstanceRepository;
 import de.codecentric.boot.admin.server.notify.MailNotifier;
